@@ -10,26 +10,39 @@ body{
   background-size: contain;
 }
 
-header p { 
-  opacity: 0.5;
+header p {
   font-size: 0.9rem;
+}
+.testo-opaco { 
+  opacity: 0.5;
  }
 
 #booleaner-logo {
-  width: 18%;
+  width: 200px;
   padding-top: 50px;
 }
 
-#highlight {
+.highlight {
   background-color: yellow;
 }
 
-div span {
+div > span {
   font-size: 0.7rem;
 }
 
 
-
 #booleaner {
   color: #0098E1;
+}
+
+td {
+  text-align: left;
+}
+
+thead {
+  background-color: #20A9E5;
+}
+
+.table {
+  background-color: #B1E5F2;
 }

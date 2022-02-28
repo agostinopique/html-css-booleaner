@@ -1,7 +1,11 @@
 body{
   font-size: 18px;
+  margin: 0;
 }
 
+main {
+  margin: 10px;;
+}
 .title {
   background-color: #4EA0FF;
   width: 100%;
@@ -10,8 +14,8 @@ body{
   background-size: contain;
 }
 
-header p {
-  font-size: 0.9rem;
+.author {
+  font-size: 0.8rem;
 }
 .testo-opaco { 
   opacity: 0.5;
@@ -33,10 +37,6 @@ div > span {
 
 #booleaner {
   color: #0098E1;
-}
-
-td {
-  text-align: left;
 }
 
 thead {

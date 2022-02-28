@@ -14,6 +14,16 @@ main {
   background-size: contain;
 }
 
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#head-img img {
+  width: 49%;
+}
+
 .author {
   font-size: 0.8rem;
 }
@@ -41,8 +51,30 @@ div > span {
 
 thead {
   background-color: #20A9E5;
+  text-align: left;
+  color: #FFFFFF;
 }
 
 .table {
   background-color: #B1E5F2;
+}
+
+thead th:nth-child(1) {
+  width: 25%;
+}
+
+thead th:nth-child(2) {
+  width: 25%;
+}
+
+thead th:nth-child(3) {
+  width: 50%;
+}
+
+#list {
+  margin-left: -20px;
+}
+
+.foot-img img {
+  width: 20%;
 }

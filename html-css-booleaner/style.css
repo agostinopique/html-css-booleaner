@@ -1,0 +1,139 @@
+/* CORREZZIONE: Manca l'organizzazione delle classi in base alla loro funzione e mancano i commenti. */
+
+body{
+  font-size: 18px;
+  margin: 0;
+}
+
+main {
+  margin: 10px;;
+}
+
+.title {
+  background-color: #4EA0FF;
+  width: 100%;
+  height: 100px;
+  background-image: url(./assets/img/pattern.png);
+  background-size: 35%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  /* CORREZZIONE: si poteva utilizzare anche border-spacing dando 0 come valore */
+  border-collapse: collapse; 
+}
+
+#booleaner-logo {
+  width: 200px;
+  padding-top: 50px;
+}
+
+#head-img img {
+  width: 49%;
+}
+
+.author {
+  font-size: 0.8rem;
+}
+.testo-opaco { 
+  opacity: 0.5;
+ }
+
+
+.highlight {
+  background-color: yellow;
+}
+
+div > span {
+  font-size: 0.7rem;
+}
+
+
+#booleaner {
+  color: #0098E1;
+}
+
+thead {
+  background-color: #20A9E5;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.table {
+  background-color: #B1E5F2;
+}
+
+/* CORREZZIONE: Si poteva spevificare il valore solo per la terza cella. Le altre caselle si sarebbero ridimensionate in base al contenuto. */
+.twenty-five {
+  width: 25%;
+}
+
+#fifty {
+  width: 50%;
+}
+
+/* thead th:nth-child(1) {
+  width: 25%;
+}
+
+thead th:nth-child(2) {
+  width: 25%;
+}
+
+thead th:nth-child(3) {
+  width: 50%;
+} */
+
+#list {
+  margin-left: -20px;
+}
+
+.foot-img img {
+  width: 20%;
+}
+
+/* 
+footer .image-box {
+  width: 200px;
+  height: 180px;
+  background-color: #23A9E5;
+  margin: 10px 0px;
+  padding: 15px;
+  color: white;
+  background-position: center;
+  background-size: cover;
+} 
+
+#image-monitor {
+  background-image: url();
+}
+
+#image-graph {
+  background-image: url();
+} 
+*/
+
+
+
+/*
+ GENERAL
+ */
+
+ h1 {
+ font-size: 35px;  
+}
+ 
+ /*
+ HEADER
+ */
+ 
+ 
+ /*
+ MAIN
+ */
+
+
+ /*
+ FOOTER
+ */
